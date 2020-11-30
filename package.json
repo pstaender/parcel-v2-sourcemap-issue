@@ -2,10 +2,9 @@
   "name": "parcel-v2-sourcemap-issue",
   "version": "1.0.0",
   "description": "",
-  "main": "not_working_sourcemap.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build --no-minify --dist-dir ./dist ./src/not_working_sourcemap.html; parcel build --no-minify --dist-dir ./dist ./src/working_sourcemap.html"
+    "build": "parcel build --no-cache --no-minify ./src/good.html; parcel build --no-cache --no-minify ./src/bad.html"
   },
   "author": "",
   "license": "ISC",
