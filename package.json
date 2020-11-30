@@ -1,0 +1,16 @@
+{
+  "name": "parcel-v2-sourcemap-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "not_working_sourcemap.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build --no-minify --dist-dir ./dist ./src/not_working_sourcemap.html; parcel build --no-minify --dist-dir ./dist ./src/working_sourcemap.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.0.0-nightly.462",
+    "sass": "^1.29.0"
+  }
+}
